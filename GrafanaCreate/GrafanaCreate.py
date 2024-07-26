@@ -4037,7 +4037,7 @@ with open (file_path,'w') as grafana: #abre um arquivo onde a variavel a cima de
   json.dump(grafanajson, grafana)
 
   #Caso o arquivo não esteja nesse direcionamente altere para onde a pasta com o código se encontra 
-diretorio = 'C:\\Users\\User\\Desktop\\Downloads\\GrafanaCreate\\json' #defina o diretório onde o json foi salvo  
+diretorio = 'C:\\Users\\User\\Downloads\\GrafanaCreate\\json' #defina o diretório onde o json foi salvo  
 
 os.startfile(diretorio) 
 #abre o explorador de arquivos onde o json está. 
